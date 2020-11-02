@@ -8,8 +8,8 @@ def fibonacci(x):
         n += 1
     return a 
 
-inicio = time.time()
+initial = time.time()
 for i in range(0, 300000):
     fibonacci(400)
-fim = time.time()
-print(fim - inicio)
+end = time.time()
+print(end - initial)
