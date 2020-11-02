@@ -6,6 +6,9 @@ def concatenate():
         a += 'a'
 
 initial = time.time()
+
 concatenate()
+
 end = time.time()
+
 print(end - initial)
